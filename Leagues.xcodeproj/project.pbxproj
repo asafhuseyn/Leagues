@@ -11,6 +11,12 @@
 		85BBCE172C498ADD00BF0008 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BBCE162C498ADD00BF0008 /* ContentView.swift */; };
 		85BBCE192C498ADE00BF0008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85BBCE182C498ADE00BF0008 /* Assets.xcassets */; };
 		85BBCE1D2C498ADE00BF0008 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85BBCE1C2C498ADE00BF0008 /* Preview Assets.xcassets */; };
+		85BBCE242C498B3800BF0008 /* CountryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BBCE232C498B3800BF0008 /* CountryListView.swift */; };
+		85BBCE262C498B5000BF0008 /* LeagueListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BBCE252C498B5000BF0008 /* LeagueListView.swift */; };
+		85BBCE282C498B7900BF0008 /* TeamListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BBCE272C498B7900BF0008 /* TeamListView.swift */; };
+		85BBCE2A2C498BAB00BF0008 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BBCE292C498BAB00BF0008 /* Country.swift */; };
+		85BBCE2C2C498BD100BF0008 /* League.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BBCE2B2C498BD100BF0008 /* League.swift */; };
+		85BBCE2E2C498BE100BF0008 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BBCE2D2C498BE100BF0008 /* Team.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		85BBCE182C498ADE00BF0008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85BBCE1A2C498ADE00BF0008 /* Leagues.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Leagues.entitlements; sourceTree = "<group>"; };
 		85BBCE1C2C498ADE00BF0008 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85BBCE232C498B3800BF0008 /* CountryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListView.swift; sourceTree = "<group>"; };
+		85BBCE252C498B5000BF0008 /* LeagueListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueListView.swift; sourceTree = "<group>"; };
+		85BBCE272C498B7900BF0008 /* TeamListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListView.swift; sourceTree = "<group>"; };
+		85BBCE292C498BAB00BF0008 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		85BBCE2B2C498BD100BF0008 /* League.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = League.swift; sourceTree = "<group>"; };
+		85BBCE2D2C498BE100BF0008 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,12 @@
 			children = (
 				85BBCE142C498ADD00BF0008 /* LeaguesApp.swift */,
 				85BBCE162C498ADD00BF0008 /* ContentView.swift */,
+				85BBCE2D2C498BE100BF0008 /* Team.swift */,
+				85BBCE2B2C498BD100BF0008 /* League.swift */,
+				85BBCE292C498BAB00BF0008 /* Country.swift */,
+				85BBCE232C498B3800BF0008 /* CountryListView.swift */,
+				85BBCE252C498B5000BF0008 /* LeagueListView.swift */,
+				85BBCE272C498B7900BF0008 /* TeamListView.swift */,
 				85BBCE182C498ADE00BF0008 /* Assets.xcassets */,
 				85BBCE1A2C498ADE00BF0008 /* Leagues.entitlements */,
 				85BBCE1B2C498ADE00BF0008 /* Preview Content */,
@@ -139,8 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85BBCE2C2C498BD100BF0008 /* League.swift in Sources */,
 				85BBCE172C498ADD00BF0008 /* ContentView.swift in Sources */,
+				85BBCE262C498B5000BF0008 /* LeagueListView.swift in Sources */,
+				85BBCE282C498B7900BF0008 /* TeamListView.swift in Sources */,
+				85BBCE2E2C498BE100BF0008 /* Team.swift in Sources */,
 				85BBCE152C498ADD00BF0008 /* LeaguesApp.swift in Sources */,
+				85BBCE2A2C498BAB00BF0008 /* Country.swift in Sources */,
+				85BBCE242C498B3800BF0008 /* CountryListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +308,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
@@ -296,7 +320,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 2.0;
+				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Debug;
 		};
@@ -323,7 +347,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.0;
@@ -335,7 +359,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 2.0;
+				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Release;
 		};
