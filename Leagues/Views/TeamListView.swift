@@ -15,6 +15,7 @@ struct TeamListView: View {
             Text(team.name)
         }
         .navigationTitle("Teams")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

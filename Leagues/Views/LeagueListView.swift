@@ -17,6 +17,7 @@ struct LeagueListView: View {
             }
         }
         .navigationTitle("Leagues")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
